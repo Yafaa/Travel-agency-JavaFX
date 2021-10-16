@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TravelBuddyListviewController">
+   <children>
+      <ListView fx:id="listView" layoutX="231.0" layoutY="102.0" prefHeight="349.0" prefWidth="791.0" />
+      <JFXTextField fx:id="searchField" layoutX="691.0" layoutY="40.0" prefHeight="23.0" prefWidth="154.0" />
+      <ImageView fitHeight="42.0" fitWidth="32.0" layoutX="857.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/search.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="95.0" layoutY="19.0" text="Liste des clients">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="132.0" fitWidth="171.0" layoutX="26.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/thinkstockphotos-479528526.redimensionado.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="179.0" layoutX="31.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/1438124011877.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="devenirTravel" layoutX="22.0" layoutY="102.0" prefHeight="32.0" prefWidth="197.0" text="Ajouter client" />
+      <JFXButton fx:id="dashboard" layoutX="22.0" layoutY="153.0" prefHeight="43.0" prefWidth="179.0" text="Consulte dashboard" />
+      <ImageView fx:id="home" fitHeight="66.0" fitWidth="61.0" layoutX="971.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="72.0" fitWidth="76.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/back.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfff41" height="4.0" layoutX="24.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="175.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfff41" height="4.0" layoutX="24.0" layoutY="149.0" stroke="BLACK" strokeType="INSIDE" width="175.0" />
+   </children>
+</Pane>

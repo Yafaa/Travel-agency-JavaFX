@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="172.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="title" layoutX="27.0" layoutY="8.0" prefHeight="43.0" prefWidth="166.0" text="Title" />
+      <Label layoutX="222.0" layoutY="19.0" text="Destination :" />
+      <ImageView fx:id="image" fitHeight="130.0" fitWidth="166.0" layoutX="14.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/trip.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="76.0" layoutX="458.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/travel%20date%20icon.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="504.0" layoutY="19.0" text="Date de voyage" />
+      <Label layoutX="556.0" layoutY="77.0" text="vers" />
+      <Label fx:id="date_debut" layoutX="537.0" layoutY="50.0" text="Date_debut" />
+      <Label fx:id="date_fin" layoutX="540.0" layoutY="112.0" prefHeight="27.0" prefWidth="98.0" text="Date_fin" />
+      <Label fx:id="destination" layoutX="327.0" layoutY="19.0" text="Desto" />
+      <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="186.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/destination.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="213.0" layoutY="50.0" text="Plan de voyage :" />
+      <Label fx:id="plan" layoutX="212.0" layoutY="50.0" prefHeight="104.0" prefWidth="246.0" text="Client(s) :" />
+   </children>
+</Pane>

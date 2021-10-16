@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TravelsEntryWindowController">
+   <children>
+      <Label layoutX="181.0" layoutY="30.0" text="Bienvenue au section des de gestion des voyages !">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="221.0" fitWidth="239.0" layoutX="703.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/book.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="196.0" fitWidth="293.0" layoutX="77.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/about.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21ffc3" height="463.0" layoutX="484.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="19.0" />
+      <JFXButton fx:id="goToGroup" layoutX="636.0" layoutY="126.0" prefHeight="62.0" prefWidth="355.0" text="Consulter Section Voyages">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="home" fitHeight="63.0" fitWidth="65.0" layoutX="981.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/home.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="goToBuddy" layoutX="52.0" layoutY="132.0" prefHeight="62.0" prefWidth="355.0" text="Consulter Section Clients">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</Pane>

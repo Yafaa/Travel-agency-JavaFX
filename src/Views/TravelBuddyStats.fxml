@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TravelBuddyStatsController">
+   <children>
+      <Label layoutX="66.0" layoutY="30.0" prefHeight="80.0" prefWidth="417.0" text="Top destination preferés">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="travelbuddyStat" layoutX="52.0" layoutY="233.0" prefHeight="241.0" prefWidth="299.0" />
+      <PieChart fx:id="travelgroupStat" layoutX="595.0" layoutY="226.0" prefHeight="268.0" prefWidth="340.0" />
+      <ImageView fitHeight="132.0" fitWidth="194.0" layoutX="605.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/stats.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="72.0" layoutY="162.0" text="Pour les individuels">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="162.0" prefHeight="39.0" prefWidth="220.0" text="Pour les groupes">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

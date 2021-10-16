@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TravelGroupAfficheController">
+   <children>
+      <TableView fx:id="table" layoutX="25.0" layoutY="109.0" prefHeight="385.0" prefWidth="745.0">
+        <columns>
+          <TableColumn fx:id="title" prefWidth="137.0" text="Title" />
+          <TableColumn fx:id="destination" prefWidth="158.0" text="Destination" />
+            <TableColumn fx:id="getDate_debut" prefWidth="125.0" text="Date debut" />
+            <TableColumn fx:id="getDate_fin" minWidth="0.0" prefWidth="108.0" text="Date fin" />
+            <TableColumn fx:id="plan" prefWidth="335.0" text="Client(s)" />
+            <TableColumn fx:id="id_tavelbuddy" prefWidth="75.0" text="Column X" visible="false" />
+        </columns>
+      </TableView>
+      <Label layoutX="101.0" layoutY="21.0" prefHeight="14.0" prefWidth="390.0" text="List Voyages">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="162.0" fitWidth="249.0" layoutX="791.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/travel-buddy.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="528.0" layoutY="39.0" prefHeight="62.0" prefWidth="526.0" text="       Voici les informations relative aux voyages&#10;" />
+      <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="460.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/tip.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="72.0" fitWidth="76.0" layoutX="7.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="home" fitHeight="63.0" fitWidth="65.0" layoutX="991.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/home.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

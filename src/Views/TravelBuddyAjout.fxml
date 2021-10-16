@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="545.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TravelBuddyController">
+   <children>
+      <Label alignment="CENTER" layoutX="228.0" layoutY="14.0" prefHeight="81.0" prefWidth="585.0" text="Saisir details client">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Pane layoutX="187.0" layoutY="113.0" prefHeight="380.0" prefWidth="635.0">
+         <children>
+            <JFXTextField fx:id="Descritpion" layoutX="287.0" layoutY="34.0" />
+            <JFXTextField fx:id="Destination" layoutX="287.0" layoutY="100.0" />
+            <DatePicker fx:id="getDate_debut" layoutX="287.0" layoutY="199.0" />
+            <DatePicker fx:id="getDate_fin" layoutX="287.0" layoutY="260.0" />
+            <Label layoutX="97.0" layoutY="55.0" text="nom" />
+            <Label layoutX="94.0" layoutY="121.0" text="prénom" />
+            <Label layoutX="77.0" layoutY="201.0" prefHeight="27.0" prefWidth="139.0" text="date naissance">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="265.0" prefHeight="25.0" prefWidth="111.0" text="date inscri">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label layoutX="50.0" layoutY="160.0" text="Info">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <JFXButton fx:id="Valider" layoutX="183.0" layoutY="321.0" text="Valider" />
+            <JFXButton fx:id="reset" layoutX="363.0" layoutY="321.0" text="Reset" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="316.0" fitWidth="258.0" layoutX="771.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Travelbuddy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="72.0" fitWidth="76.0" layoutX="14.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="home" fitHeight="63.0" fitWidth="65.0" layoutX="971.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/home.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.web.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="1069.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ChatBotLoaderController">
+   <children>
+      <WebView fx:id="ChatBotLoader" layoutX="566.0" layoutY="47.0" prefHeight="480.0" prefWidth="434.0" />
+      <ImageView fitHeight="276.0" fitWidth="359.0" layoutX="40.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/AmiticiaBot.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="141.0" layoutY="21.0" text="Meet Amitica Bot !">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f59931" height="31.0" layoutX="568.0" layoutY="130.0" stroke="BLACK" strokeType="INSIDE" width="359.0" />
+      <Label layoutX="579.0" layoutY="130.0" prefHeight="25.0" prefWidth="314.0" text="     Demande quelque chose a Amito">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="148.0" fitWidth="215.0" layoutX="257.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/bd.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="293.0" layoutY="120.0" prefHeight="83.0" prefWidth="143.0" text="Je m'appelle &#10;    Amito">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="back" fitHeight="85.0" fitWidth="91.0" layoutX="25.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/back.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

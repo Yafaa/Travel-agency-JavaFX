@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="172.0" prefWidth="654.0" stylesheets="@EventStyle.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label fx:id="nom" layoutX="27.0" layoutY="8.0" prefHeight="43.0" prefWidth="166.0" text="Nom" />
+      <Label layoutX="504.0" layoutY="19.0" prefHeight="17.0" prefWidth="85.0" text="Logement pour" />
+      <Label layoutX="589.0" layoutY="70.0" text="Personne" />
+      <Label fx:id="nbr_place" layoutX="462.0" layoutY="70.0" prefHeight="17.0" prefWidth="111.0" />
+      <Label fx:id="prix" layoutX="372.0" layoutY="23.0" prefHeight="27.0" prefWidth="98.0" text="Prix" />
+      <Label layoutX="237.0" layoutY="28.0" text="Description:" />
+      <Label fx:id="desc" layoutX="199.0" layoutY="50.0" prefHeight="67.0" prefWidth="139.0" />
+   </children>
+</Pane>
